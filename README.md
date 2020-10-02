@@ -1,4 +1,4 @@
-# Otus-FabricatedSorter
+# Otus-FibonacciIterator
 
 ###Project Modules:
 - application
