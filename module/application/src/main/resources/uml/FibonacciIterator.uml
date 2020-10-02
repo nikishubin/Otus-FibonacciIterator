@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>uml</OriginalElement>
+  <nodes>
+    <node x="665.0" y="136.0">ru.otus.patterns.iterator.fibonacci.BinetFibonacci</node>
+    <node x="385.8489583333335" y="386.0">ru.otus.patterns.factory.concrete.BinetFlowFactory</node>
+    <node x="887.5989583333335" y="136.0">ru.otus.patterns.iterator.fibonacci.IterativeFibonacci</node>
+    <node x="807.9739583333335" y="386.0">ru.otus.patterns.factory.concrete.IterativeFlowFactory</node>
+    <node x="0.0" y="136.0">ru.otus.patterns.adapter.FibonacciToFile</node>
+    <node x="243.0989583333336" y="262.0">ru.otus.patterns.factory.concrete.AbstractFlowFactory</node>
+    <node x="364.0" y="136.0">ru.otus.patterns.factory.FibonacciFlowFactory</node>
+    <node x="762.5" y="0.0">ru.otus.patterns.iterator.Iterator</node>
+    <node x="207.30416666666673" y="11.0">ru.otus.patterns.iterator.port.FibonacciOutput</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.otus.patterns.adapter.FibonacciToFile" target="ru.otus.patterns.iterator.port.FibonacciOutput">
+      <point x="0.0" y="-38.0" />
+      <point x="171.5" y="116.0" />
+      <point x="241.6375000000001" y="116.0" />
+      <point x="-68.66666666666663" y="27.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.FibonacciFlowFactory" target="ru.otus.patterns.iterator.port.FibonacciOutput">
+      <point x="-70.25" y="-38.0" />
+      <point x="434.25" y="116.0" />
+      <point x="378.97083333333336" y="116.0" />
+      <point x="68.66666666666663" y="27.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.AbstractFlowFactory" target="ru.otus.patterns.factory.FibonacciFlowFactory">
+      <point x="66.66666666666652" y="-27.0" />
+      <point x="409.7656250000001" y="237.0" />
+      <point x="504.5" y="237.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.IterativeFlowFactory" target="ru.otus.patterns.iterator.fibonacci.IterativeFibonacci">
+      <point x="35.12500000000003" y="-27.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.iterator.fibonacci.BinetFibonacci" target="ru.otus.patterns.iterator.Iterator">
+      <point x="0.0" y="-38.0" />
+      <point x="745.0" y="116.0" />
+      <point x="806.3000000000001" y="116.0" />
+      <point x="-29.19999999999999" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.BinetFlowFactory" target="ru.otus.patterns.iterator.fibonacci.BinetFibonacci">
+      <point x="35.125" y="-27.0" />
+      <point x="561.4739583333335" y="356.0" />
+      <point x="745.0" y="356.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.BinetFlowFactory" target="ru.otus.patterns.factory.concrete.AbstractFlowFactory">
+      <point x="-35.125" y="-27.0" />
+      <point x="491.2239583333335" y="356.0" />
+      <point x="318.0989583333336" y="356.0" />
+      <point x="-25.0" y="27.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.BinetFlowFactory" target="ru.otus.patterns.iterator.Iterator">
+      <point x="105.375" y="-27.0" />
+      <point x="631.7239583333335" y="366.0" />
+      <point x="874.3364583333334" y="366.0" />
+      <point x="874.3364583333334" y="116.0" />
+      <point x="835.5" y="116.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.IterativeFlowFactory" target="ru.otus.patterns.factory.concrete.AbstractFlowFactory">
+      <point x="-105.375" y="-27.0" />
+      <point x="843.0989583333335" y="346.0" />
+      <point x="368.0989583333336" y="346.0" />
+      <point x="25.0" y="27.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.AbstractFlowFactory" target="ru.otus.patterns.iterator.port.FibonacciOutput">
+      <point x="-1.1368683772161603E-13" y="-27.0" />
+      <point x="343.0989583333335" y="237.0" />
+      <point x="353.5" y="237.0" />
+      <point x="353.5" y="116.0" />
+      <point x="310.30416666666673" y="116.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.AbstractFlowFactory" target="ru.otus.patterns.adapter.FibonacciToFile">
+      <point x="-66.66666666666686" y="-27.0" />
+      <point x="276.43229166666674" y="237.0" />
+      <point x="171.5" y="237.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.concrete.IterativeFlowFactory" target="ru.otus.patterns.iterator.Iterator">
+      <point x="105.37500000000003" y="-27.0" />
+      <point x="1053.8489583333335" y="366.0" />
+      <point x="1090.0989583333335" y="366.0" />
+      <point x="1090.0989583333335" y="96.0" />
+      <point x="893.9" y="96.0" />
+      <point x="58.39999999999998" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.iterator.fibonacci.IterativeFibonacci" target="ru.otus.patterns.iterator.Iterator">
+      <point x="0.0" y="-38.0" />
+      <point x="983.5989583333335" y="106.0" />
+      <point x="864.7" y="106.0" />
+      <point x="29.19999999999999" y="38.0" />
+    </edge>
+    <edge source="ru.otus.patterns.factory.FibonacciFlowFactory" target="ru.otus.patterns.iterator.Iterator">
+      <point x="70.25" y="-38.0" />
+      <point x="574.75" y="106.0" />
+      <point x="777.1" y="106.0" />
+      <point x="-58.39999999999998" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="249.5" y="247.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

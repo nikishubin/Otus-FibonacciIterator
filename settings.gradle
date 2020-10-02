@@ -1,0 +1,11 @@
+rootProject.name = 'fibonacci_iterator'
+
+include ':usecase'
+include ':application'
+
+include ':file-writer'
+
+project(":usecase").projectDir = file("/module/usecase")
+project(":application").projectDir = file("/module/application")
+
+project(":file-writer").projectDir = file("/module/foreign/file-writer")
